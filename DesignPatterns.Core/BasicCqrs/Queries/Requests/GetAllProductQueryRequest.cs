@@ -1,4 +1,4 @@
-﻿public class GetAllProductQueryRequest
+﻿public sealed class GetAllProductQueryRequest
 {
 
 }

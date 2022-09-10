@@ -1,4 +1,4 @@
-﻿public class UpdateProductCommandRequest
+﻿public sealed class UpdateProductCommandRequest
 {
     public int Id { get; set; }
     public string Name { get; set; }

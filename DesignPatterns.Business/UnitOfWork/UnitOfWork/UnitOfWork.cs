@@ -1,4 +1,4 @@
-﻿public class UnitOfWork : IUnitOfWork
+﻿public sealed class UnitOfWork : IUnitOfWork
 {
     public UnitOfWork(IProductRepository productRepository)
     {

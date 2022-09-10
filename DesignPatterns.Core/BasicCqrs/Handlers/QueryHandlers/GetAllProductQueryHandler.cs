@@ -1,4 +1,4 @@
-﻿public class GetAllProductQueryHandler
+﻿public sealed class GetAllProductQueryHandler
 {
     private readonly IUnitOfWork _unitOfWork;
     public GetAllProductQueryHandler(IUnitOfWork unitOfWork)

@@ -1,4 +1,4 @@
-﻿public class AddProductCommandResponse
+﻿public sealed class AddProductCommandResponse
 {
     public bool IsSuccess { get; set; }
     public int ProductId { get; set; }

@@ -1,4 +1,4 @@
-﻿public class GetByIdProductQueryHandler
+﻿public sealed class GetByIdProductQueryHandler
 {
     private readonly IUnitOfWork _unitOfWork;
     public GetByIdProductQueryHandler(IUnitOfWork unitOfWork)

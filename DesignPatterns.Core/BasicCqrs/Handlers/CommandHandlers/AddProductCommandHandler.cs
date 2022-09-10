@@ -1,4 +1,4 @@
-﻿public class AddProductCommandHandler
+﻿public sealed class AddProductCommandHandler
 {
     private readonly IUnitOfWork _unitOfWork;
     public AddProductCommandHandler(IUnitOfWork unitOfWork)

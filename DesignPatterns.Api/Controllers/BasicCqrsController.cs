@@ -1,4 +1,4 @@
-﻿public class BasicCqrsController : BaseController
+﻿public sealed class BasicCqrsController : BaseController
 {
     AddProductCommandHandler _addProductCommandHandler;
     RemoveProductCommandHandler _removeProductCommandHandler;
