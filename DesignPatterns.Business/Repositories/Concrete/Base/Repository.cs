@@ -15,6 +15,11 @@
         return Enumerable.Empty<TEntity>();
     }
 
+    public IEnumerable<TEntity> GetFilter(Expression<Func<TEntity, bool>> condition)
+    {
+        return Enumerable.Empty<TEntity>();
+    }
+
     public void Remove(int id)
     {
 

@@ -4,6 +4,9 @@ builder.Services.AddControllers();
 builder.Services.AddBasicCqrs();
 builder.Services.AddRepositories();
 
+// Cqrs yapýsýnýn bulunduðu yerdeki herhangi bir sýnýfýn tipi gerekmektedir.
+builder.Services.AddMediatR(typeof(GetByFilterQueryRequest));
+
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
