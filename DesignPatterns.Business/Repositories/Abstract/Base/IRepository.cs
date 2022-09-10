@@ -5,4 +5,5 @@
     void Remove(int id);
     IEnumerable<TEntity> GetAll();
     TEntity Get(int id);
+    IEnumerable<TEntity> GetFilter(Expression<Func<TEntity, bool>> condition);
 }
