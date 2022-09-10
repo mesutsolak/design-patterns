@@ -1,4 +1,4 @@
-﻿public class RemoveProductCommandHandler
+﻿public sealed class RemoveProductCommandHandler
 {
     private readonly IUnitOfWork _unitOfWork;
     public RemoveProductCommandHandler(IUnitOfWork unitOfWork)

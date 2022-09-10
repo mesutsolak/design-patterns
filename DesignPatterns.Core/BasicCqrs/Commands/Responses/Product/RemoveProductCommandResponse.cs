@@ -1,4 +1,4 @@
-﻿public class RemoveProductCommandResponse
+﻿public sealed class RemoveProductCommandResponse
 {
     public bool IsSuccess { get; set; }
 }

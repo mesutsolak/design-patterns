@@ -1,3 +1,3 @@
-﻿public class ProductRepository : Repository<Product>, IProductRepository
+﻿public sealed class ProductRepository : Repository<Product>, IProductRepository
 {
 }

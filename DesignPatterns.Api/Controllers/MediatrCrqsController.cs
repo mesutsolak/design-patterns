@@ -1,4 +1,4 @@
-﻿public class MediatrCrqsController : BaseController
+﻿public sealed class MediatrCrqsController : BaseController
 {
     private readonly IMediator _mediator;
 

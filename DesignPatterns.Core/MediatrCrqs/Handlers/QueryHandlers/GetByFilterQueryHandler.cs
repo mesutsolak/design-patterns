@@ -1,4 +1,4 @@
-﻿public class GetByFilterQueryHandler : IRequestHandler<GetByFilterQueryRequest, IEnumerable<GetByFilterQueryResponse>>
+﻿public sealed class GetByFilterQueryHandler : IRequestHandler<GetByFilterQueryRequest, IEnumerable<GetByFilterQueryResponse>>
 {
     private readonly IUnitOfWork _unitOfWork;
     public GetByFilterQueryHandler(IUnitOfWork unitOfWork)

@@ -1,4 +1,4 @@
-﻿public class GetAllProductQueryResponse
+﻿public sealed class GetAllProductQueryResponse
 {
     public int Id { get; set; }
     public string Name { get; set; }
